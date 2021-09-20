@@ -11,10 +11,15 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Bandar Almutairi"
 
+let yearOfBirth = 1993
 
+let hobby = "coding"
 
+let funFact = "I love Coffee"
 
+const image = "https://m.media-amazon.com/images/M/MV5BMzgxMmQxZjQtNDdmMC00MjRlLTk1MDEtZDcwNTdmOTg0YzA2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
 
 /**
  * Part 2: String Interpolation
@@ -32,6 +37,9 @@
 // const fullNameString = `My name is ${}`;
 // const yearOfBirthString =
 // const hobbyString =
+const fullNameString = `My name is ${fullName}`
+const yearOfBirthString = `I am ${yearOfBirth}`
+const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -45,14 +53,19 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars = stars + 1
+
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars - 1;  
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars + 2 ; 
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2 ; 
 }
